@@ -2,7 +2,7 @@ describe("fizzBuzz", function() {
   var fizzbuzz;
 
   beforeEach(function() {
-    fizzbuzz = new fizzBuzz();
+    fizzbuzz = new FizzBuzz();
   })
 
   it("should say fizz when a number is divisible by 3", function() {
